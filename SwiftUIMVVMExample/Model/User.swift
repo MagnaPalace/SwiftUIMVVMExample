@@ -18,7 +18,7 @@ struct UserResponse: Decodable {
 }
 
 // ビジネスロジックにおける重要なオブジェクトを表現するためのクラスや構造体
-class User: Codable, Identifiable {
+struct User: Codable, Identifiable {
     
     let id: Int
     let name: String
